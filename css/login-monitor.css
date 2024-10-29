@@ -1,0 +1,76 @@
+@charset "UTF-8";
+#wp-admin-bar-login-monitor .ab-icon:before {
+  content: "\f110";
+  top: 3px;
+}
+#wp-admin-bar-login-monitor .ab-submenu {
+  padding: 10px 0;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item {
+  height: auto;
+  padding: 0;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item:hover {
+  color: inherit;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item > a {
+  padding: 0;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li {
+  margin: 0;
+  padding: 0 10px;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li:nth-child(n+2) {
+  margin-top: 8px;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li.no-link {
+  cursor: default;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li.no-link a {
+  pointer-events: none;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li img {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+#wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li span {
+  width: 240px;
+  max-width: 240px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+  text-align: left;
+  word-break: break-all;
+  white-space: normal;
+}
+
+@media screen and (max-width: 782px) {
+  #wpadminbar .quicklinks #wp-admin-bar-notifications > a {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  #wp-toolbar > ul > #wp-admin-bar-login-monitor {
+    display: block;
+  }
+  #wp-toolbar > ul > #wp-admin-bar-login-monitor.hover {
+    position: static;
+  }
+
+  #wp-admin-bar-login-monitor #wp-admin-bar-login-monitor-detail .ab-item ul#lm-list li span {
+    width: inherit;
+    max-width: inherit;
+  }
+}
+
+/*# sourceMappingURL=login-monitor.css.map */

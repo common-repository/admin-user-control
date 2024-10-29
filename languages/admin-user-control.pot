@@ -1,0 +1,110 @@
+# Copyright (C) 2020 PRESSMAN
+# This file is distributed under the same license as the Admin User Control plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin User Control 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/admin-user-control\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-18T02:23:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: admin-user-control\n"
+
+#. Plugin Name of the plugin
+msgid "Admin User Control"
+msgstr ""
+
+#. Description of the plugin
+msgid "Control admin user in administration screens in real time."
+msgstr ""
+
+#. Author of the plugin
+msgid "PRESSMAN"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.pressman.ne.jp"
+msgstr ""
+
+#: auc-login-monitor.php:22
+msgid "Logged in"
+msgstr ""
+
+#: auc-maintenance.php:38
+#: auc-maintenance.php:174
+msgid "Maintenance"
+msgstr ""
+
+#: auc-maintenance.php:42
+#: auc-maintenance.php:220
+msgid "maintenance_start_date"
+msgstr ""
+
+#: auc-maintenance.php:59
+#: auc-maintenance.php:221
+msgid "maintenance_end_date"
+msgstr ""
+
+#: auc-maintenance.php:114
+msgid "Forced logout after 10 seconds because the maintenance start time"
+msgstr ""
+
+#: auc-maintenance.php:115
+msgid "Scheduled maintenance end time"
+msgstr ""
+
+#: auc-maintenance.php:175
+msgid "Add New Maintenance"
+msgstr ""
+
+#: auc-maintenance.php:176
+msgid "Edit Maintenance"
+msgstr ""
+
+#: auc-maintenance.php:246
+msgid "Latest maintenance information"
+msgstr ""
+
+#: auc-maintenance.php:269
+msgid "Click a title to display a detail."
+msgstr ""
+
+#: auc-maintenance.php:287
+msgid "No maintenance information"
+msgstr ""
+
+#: auc-notification.php:26
+msgid "New notification"
+msgstr ""
+
+#: auc-notification.php:50
+msgid "Notification"
+msgstr ""
+
+#: auc-notification.php:51
+msgid "Add New Notification"
+msgstr ""
+
+#: auc-notification.php:52
+msgid "Edit Notification"
+msgstr ""
+
+#: auc-notification.php:70
+msgid "Latest notifications"
+msgstr ""
+
+#: auc-notification.php:86
+msgid "Click a title to display a detail. If you read it, mark it as read."
+msgstr ""
+
+#: auc-notification.php:91
+msgid "Mark as read"
+msgstr ""
+
+#: auc-notification.php:113
+msgid "There is no notifications"
+msgstr ""

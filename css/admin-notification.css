@@ -1,0 +1,27 @@
+@charset "UTF-8";
+#wpadminbar #wp-admin-bar-notifications {
+  background: #ca4a1f;
+}
+#wpadminbar #wp-admin-bar-notifications .ab-item {
+  display: flex;
+  align-items: center;
+}
+#wpadminbar #wp-admin-bar-notifications .ab-item::before {
+  display: block;
+  content: "\f348";
+  margin-right: 6px;
+  font: 20px/1 dashicons !important;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  #wpadminbar .quicklinks #wp-admin-bar-notifications .ab-item::before {
+    margin: 0;
+    font-size: 40px !important;
+  }
+  #wpadminbar .quicklinks #wp-admin-bar-notifications .ab-item span {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=admin-notification.css.map */

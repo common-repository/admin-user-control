@@ -1,0 +1,66 @@
+$red        : #ca4a1f;
+$link       : #0073aa;
+$link_hover : #016087;
+$bt_blue    : #0071a1;
+
+ul.auc-dashboard-list {
+	margin: 1em 0 0 0;
+	border-top: 1px solid #ccd0d4;
+	li {
+		display: flex;
+		margin: 0;
+		padding: .6em 1em .6em .6em;
+		border-bottom: 1px solid #ccd0d4;
+		&:nth-child(even) {
+			background: #f9f9f9;
+		}
+		.date {
+			flex: 0 0 110px;
+		}
+		.content {
+			flex-grow: 2;
+			.title {
+				color: $link;
+				cursor: pointer;
+				&:hover {
+					color: $link_hover;
+				}
+			}
+			.body, .is_read {
+				display: none;
+			}
+			.body {
+				& > *:first-child {
+					margin-top: 5px;
+				}
+			}
+			.is_read {
+				margin-bottom: .5em;
+				text-align: right;
+			}
+			.read_btn {
+				cursor: pointer;
+			}
+		}
+	}
+	li.open .content .body,
+	li.open .content .is_read {
+		display: block;
+	}
+	li.read .content .is_read {
+		display: none;
+	}
+	li.unread .title:after {
+		display: inline-block;
+		content: "\f534";
+		margin-left: 0.2em;
+		font-family: "dashicons";
+		font-size: 1.4em;
+		line-height: 1;
+		color: $red;
+		vertical-align: middle;
+	}
+	li:last-child {
+		margin-bottom: 0.5em;
+	}
+}
